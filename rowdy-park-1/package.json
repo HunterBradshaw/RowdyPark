@@ -1,0 +1,22 @@
+{
+  "name": "rowdy-park",
+  "version": "1.0.0",
+  "description": "An innovative parking application for Rowdy Park using UTSA colors.",
+  "main": "src/scripts/app.js",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build process not defined yet.'"
+  },
+  "keywords": [
+    "parking",
+    "application",
+    "UTSA",
+    "Rowdy Park"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

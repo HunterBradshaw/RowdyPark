@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #003b5c; /* UTSA Blue */
+    color: #ff6f20; /* UTSA Orange */
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #003b5c; /* UTSA Blue */
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #003b5c; /* UTSA Blue */
+}
+
+a {
+    color: #ff6f20; /* UTSA Orange */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
